@@ -9,10 +9,9 @@ Dibangun menggunakan bahasa **C++** dan pustaka **OpenGL (FreeGLUT)**, proyek in
 
 Berikut adalah kontributor yang menyusun proyek ini:
 
-1.  **[Nama Lengkap Anggota 1]** - [NIM]
-2.  **[Nama Lengkap Anggota 2]** - [NIM]
-3.  **[Nama Lengkap Anggota 3]** - [NIM]
-
+1.  **YUSUF RAMADHAN MORTI SONDANG SIMANJUNTAK** - [24050974067]
+2.  **RINA DWI APRI LESTARI** - [24050974076]
+3.  **ALFIAN WIDHI HARJO** - [24050974087]
 > *Silakan edit nama dan NIM di atas sesuai dengan anggota kelompok Anda.*
 
 ## 🏫 Deskripsi Proyek
