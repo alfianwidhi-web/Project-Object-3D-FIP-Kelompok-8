@@ -1,2 +1,64 @@
 # Project-Object-3D-FIP-Kelompok-8
-🏛️ Simulasi 3D Kompleks Gedung FIP UNESAProyek ini adalah implementasi Grafika Komputer 3D yang memvisualisasikan kompleks Fakultas Ilmu Pendidikan (FIP) Universitas Negeri Surabaya (UNESA).Dibangun menggunakan C++ dan pustaka OpenGL (FreeGLUT), proyek ini mensimulasikan lingkungan kampus secara prosedural menggunakan primitif dasar geometri, transformasi hierarkis, dan pencahayaan (lighting).👥 Anggota KelompokBerikut adalah kontributor yang menyusun proyek ini:[Nama Lengkap Anggota 1] - [NIM][Nama Lengkap Anggota 2] - [NIM][Nama Lengkap Anggota 3] - [NIM][Nama Lengkap Anggota 4] - [NIM](Silakan edit bagian ini sesuai dengan anggota kelompok Anda)🏫 Deskripsi ProyekSimulasi ini menampilkan tata letak realistis dari 6 gedung utama di area FIP UNESA. Setiap gedung dirancang dengan detail arsitektur yang mendekati aslinya, termasuk penggunaan atap model Joglo, pilar-pilar penyangga, dan kombinasi warna identitas fakultas.Gedung yang Divisualisasikan:Gedung 03 (Gedung Lama): Terletak di sisi kiri depan.Gedung 04 (Gedung Lama): Terletak di sisi kanan depan.Gedung L (Gedung Baru): Gedung berbentuk L yang terletak di depan Gedung 04.Gedung 06 (Mewah): Gedung 4 lantai dengan atap Joglo besar dan pilar coklat kemerahan, terletak di belakang Gedung 03 (menghadap belakang).Gedung ULABK: Gedung laboratorium yang terletak di belakang Gedung 04 (menghadap belakang).Gedung 02: Gedung dengan desain modern yang terletak di samping Gedung L.✨ Fitur UtamaFirst-Person Camera: Navigasi kamera interaktif yang memungkinkan pengguna "berjalan" mengelilingi kampus.Mouse Look: Kemampuan menoleh ke segala arah menggunakan pergerakan mouse.Procedural Modeling: Gedung dibangun menggunakan fungsi drawBalok kustom dan transformasi matriks (glPushMatrix/glPopMatrix), bukan memuat model 3D eksternal.Detail Arsitektur: Implementasi kusen jendela, pintu, pilar memutar, atap limasan/joglo, dan plakat nama gedung.Pencahayaan & Material: Penggunaan GL_LIGHTING dan glMaterial untuk memberikan efek kedalaman dan bayangan pada objek.🎮 Kontrol NavigasiTombol / AksiFungsiWMaju ke depanSMundur ke belakangAGeser ke kiri (Strafe Left)DGeser ke kanan (Strafe Right)SpasiTerbang Naik (Fly Up)CTerbang Turun (Fly Down)Gerakan MouseMenoleh / Mengarahkan pandanganESCKeluar dari program🛠️ Teknologi & ToolsBahasa Pemrograman: C++Grafis API: OpenGL (Legacy Pipeline)Library: FreeGLUT / GLUTIDE: Visual Studio / Code::Blocks / VS Code📸 Screenshots(Disarankan untuk mengambil screenshot hasil run program Anda dan menaruhnya di sini agar README terlihat lebih menarik)Tugas Akhir Praktikum Grafika KomputerTeknik Informatika - Universitas Negeri Surabaya
+# 🏛️ Simulasi 3D Kompleks Gedung FIP UNESA
+
+Proyek ini adalah implementasi **Grafika Komputer 3D** yang memvisualisasikan kompleks **Fakultas Ilmu Pendidikan (FIP) Universitas Negeri Surabaya (UNESA)**. 
+
+Dibangun menggunakan bahasa **C++** dan pustaka **OpenGL (FreeGLUT)**, proyek ini mensimulasikan lingkungan kampus secara prosedural menggunakan primitif dasar geometri, transformasi hierarkis (*Hierarchical Modeling*), dan teknik pencahayaan (*Lighting*).
+
+## 👥 Anggota Kelompok
+
+Berikut adalah kontributor yang menyusun proyek ini:
+
+1.  **[Nama Lengkap Anggota 1]** - [NIM]
+2.  **[Nama Lengkap Anggota 2]** - [NIM]
+3.  **[Nama Lengkap Anggota 3]** - [NIM]
+
+> *Silakan edit nama dan NIM di atas sesuai dengan anggota kelompok Anda.*
+
+## 🏫 Deskripsi Proyek
+
+Simulasi ini menampilkan tata letak realistis dari 6 gedung utama di area FIP UNESA. Setiap gedung dirancang dengan detail arsitektur yang mendekati aslinya, termasuk penggunaan atap model Joglo, pilar-pilar penyangga, dan kombinasi warna identitas fakultas (Krem, Coklat, Ungu).
+
+### Gedung yang Divisualisasikan:
+
+| Gedung | Deskripsi & Lokasi |
+| :--- | :--- |
+| **Gedung 03** | Gedung lama yang terletak di sisi **kiri depan**. |
+| **Gedung 04** | Gedung lama yang terletak di sisi **kanan depan**. |
+| **Gedung L** | Gedung baru berbentuk L yang terletak di **depan Gedung 04**. |
+| **Gedung 06** | Gedung mewah 4 lantai dengan atap Joglo besar dan pilar berwarna coklat kemerahan. Terletak di **belakang Gedung 03** (menghadap belakang). |
+| **Gedung ULABK** | Gedung laboratorium yang terletak di **belakang Gedung 04** (menghadap belakang). |
+| **Gedung 02** | Gedung dengan desain modern yang terletak di **samping kanan Gedung L**. |
+
+## ✨ Fitur Utama
+
+* **First-Person Camera:** Navigasi kamera interaktif yang memungkinkan pengguna "berjalan" mengelilingi dan melihat seluruh sudut kampus.
+* **Mouse Look:** Kemampuan menoleh ke segala arah (atas, bawah, kiri, kanan) menggunakan pergerakan mouse.
+* **Procedural Modeling:** Gedung dibangun menggunakan fungsi `drawBalok` kustom dan transformasi matriks (`glPushMatrix`/`glPopMatrix`), tanpa memuat model 3D eksternal (.obj/.fbx).
+* **Detail Arsitektur:** Implementasi kusen jendela, pintu, pilar memutar, atap limasan/joglo, dan plakat nama gedung.
+* **Pencahayaan & Material:** Penggunaan `GL_LIGHTING` dan `glMaterial` untuk memberikan efek kedalaman, bayangan, dan nuansa 3D yang nyata pada objek.
+
+## 🎮 Kontrol Navigasi
+
+Gunakan kombinasi Keyboard dan Mouse untuk berinteraksi:
+
+| Tombol / Aksi | Fungsi |
+| :--- | :--- |
+| **W** | Maju ke depan |
+| **S** | Mundur ke belakang |
+| **A** | Geser ke kiri (*Strafe Left*) |
+| **D** | Geser ke kanan (*Strafe Right*) |
+| **Spasi** | Terbang Naik (*Fly Up*) |
+| **C** | Terbang Turun (*Fly Down*) |
+| **Gerakan Mouse** | Menoleh / Mengarahkan pandangan |
+| **ESC** | Keluar dari program |
+
+## 🛠️ Teknologi & Tools
+
+* **Bahasa Pemrograman:** C++
+* **Grafis API:** OpenGL (Legacy Pipeline)
+* **Library:** FreeGLUT / GLUT
+* **IDE:** Visual Studio / Code::Blocks / VS Code
+
+---
+**Tugas Akhir Praktikum Grafika Komputer** *Teknik Informatika - Universitas Negeri Surabaya*
